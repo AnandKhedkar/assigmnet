@@ -1,0 +1,1 @@
+dotnet /app/publish/private-service.dll --server.urls http://*:80

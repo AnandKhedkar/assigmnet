@@ -1,0 +1,11 @@
+@private_service_HostAddress = http://localhost:5251
+
+GET {{private_service_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{private_service_HostAddress}}/todos/1
+Accept: application/json
+
+###

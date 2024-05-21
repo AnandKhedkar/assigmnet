@@ -1,0 +1,59 @@
+{
+  "version": 4,
+  "terraform_version": "1.8.1",
+  "serial": 111,
+  "lineage": "485711f0-ceef-2514-cdfb-b5aa5ec61a46",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_ecrpublic_repository",
+      "name": "ecr_repo",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ecr-public::435896812584:repository/public-service",
+            "catalog_data": [
+              {
+                "about_text": "",
+                "architectures": [
+                  "ARM"
+                ],
+                "description": "",
+                "logo_image_blob": "",
+                "operating_systems": [
+                  "Linux"
+                ],
+                "usage_text": ""
+              }
+            ],
+            "force_destroy": false,
+            "id": "public-service",
+            "registry_id": "435896812584",
+            "repository_name": "public-service",
+            "repository_uri": "public.ecr.aws/t3o5y1z6/public-service",
+            "tags": {
+              "env": "test"
+            },
+            "tags_all": {
+              "env": "test"
+            },
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjoxMjAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    }
+  ],
+  "check_results": [
+    {
+      "object_kind": "resource",
+      "config_addr": "data.external.build",
+      "status": "unknown",
+      "objects": null
+    }
+  ]
+}

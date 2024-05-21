@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jmxkm/oAqjtnZPvP80vA6724EZM9Tr3BIMinbY52UGG/hPiAbPqocH3jziWKGqIior07GYnB+ZAZudpcSQfoyA==",
+  "success": true,
+  "projectFilePath": "/Users/anandkhedkar/Code/assignment-devops/private-service/private-service.csproj",
+  "expectedPackageFiles": [
+    "/Users/anandkhedkar/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.2/microsoft.dotnet.ilcompiler.8.0.2.nupkg.sha512",
+    "/Users/anandkhedkar/.nuget/packages/microsoft.net.illink.tasks/8.0.2/microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
+    "/Users/anandkhedkar/.nuget/packages/runtime.osx-arm64.microsoft.dotnet.ilcompiler/8.0.2/runtime.osx-arm64.microsoft.dotnet.ilcompiler.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
