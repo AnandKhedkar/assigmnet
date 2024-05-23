@@ -9,6 +9,8 @@ resource "helm_release" "istio_base" {
   repository = "https://istio-release.storage.googleapis.com/charts"
   chart = "base"
 
+
+
   timeout = 120
   cleanup_on_fail = true
   force_update    = false
