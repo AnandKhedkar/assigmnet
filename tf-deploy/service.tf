@@ -1,4 +1,4 @@
-resource "kubernetes_service" "npublic_service_node_port" {
+resource "kubernetes_service" "public_service_node_port" {
   #count = local.is_public ? 1 : 0
   #for_each = var.api_services
   metadata {
