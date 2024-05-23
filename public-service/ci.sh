@@ -10,7 +10,6 @@
 set -e
 cd ../public-service
 eval "$(jq -r '@sh "version=\(.version)"')"
-doc
 docker build -t public-service-package:$version .
 echo $version > version
 docker tag public-service-package:$version public.ecr.aws/t3o5y1z6/public-service:$version > /dev/null
